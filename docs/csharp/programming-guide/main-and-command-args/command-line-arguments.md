@@ -48,7 +48,7 @@ ms.lasthandoff: 07/28/2017
   
  [!code-cs[csProgGuideMain#4](../../../csharp/programming-guide/inside-a-program/codesnippet/CSharp/command-line-arguments_3.cs)]  
   
- また、<xref:System.Convert> クラスまたは `Parse` メソッドを使って、文字列型の引数を数値型に変換できます。 たとえば、次のステートメントでは、`string` メソッドを使用して `long` を <xref:System.Int64.Parse%2A> 値に変換します。  
+ また、<xref:System.Convert> クラスまたは `Parse` メソッドを使って、文字列型の引数を数値型に変換できます。 たとえば、次のステートメントでは、<xref:System.Int64.Parse%2A> メソッドを使用して `string` を `long` 値に変換します。
   
 ```  
 long num = Int64.Parse(args[0]);  
